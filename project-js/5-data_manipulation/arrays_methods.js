@@ -11,8 +11,11 @@ techs.pop()
 // remover do começo
 techs.shift()
 // pegar somente alguns elementos do array - [NÃO MODIFICA O ARRAY]
-console.log(techs.slice(1, 3)) // (start)
+//console.log(techs.slice(1, 3)) //
 // remover 1 ou mais items em qualquer posição do array
+techs.splice()
 // encontrar a posição de um elemento no array
+let index = techs.indexOf('css')
+techs.splice(index, 3)
 
 console.log(techs)
